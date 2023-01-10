@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(143, 131, 131);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+}
+.cont
+{
+    font-size: 30px;
+ text-align: center;
+}
+.h
+{
+    /* border: 2px solid black; */
+    width: 300px;
+    margin: 30px auto;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration:underline;
+}
+.bt
+{
+    border: 2px solid black;
+    position: relative;
+    left:330px;
+    top: 40px;
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgb(48, 24, 48);
+    color: white;
+    font-size: 20px;
+}
+.bt:hover
+{
+    color: green;
+    background-color: white;
+}
+table
+{
+    border: 2px solid black;
+    width: 900px;
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 5px;
+}
+th
+{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(58, 55, 55);
+}
+td{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    font-weight: bold;
+}
+.bt1
+{
+    border: 2px solid white;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 1.5px;
+    border-radius: 5px;
+}
+.bt1:hover
+{
+ font-size: 15px;
+}
+.bt2
+{
+    border: 2px solid white;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 1.5px;
+    border-radius: 5px;
+}
+.bt2:hover
+{
+ font-size: 15px;
+}
