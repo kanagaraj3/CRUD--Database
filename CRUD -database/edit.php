@@ -86,12 +86,12 @@ else
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Shop</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
 </head>
 <body>
-    <div class="container my-5">
+    <div class="container">
         <h2>New Client</h2>
         <?php
         if(!empty($errorMessage))
@@ -107,30 +107,30 @@ else
 
         <form method="post">
             <input type="hidden" name="id" value="<?php echo $id;?>">
-            <div class="row mb-3">
-                <label class="col-sm-3 col-form-label">Name</label>
-                <div class="col-sm-6">
+            <div class="m">
+                <label class="l">Name</label>
+                <div class="i">
                     <input type="text" class="form-control" name="name" value="<?php echo $name;?>">
                 </div>
             </div>
 
             <div class="row mb-3">
-                <label class="col-sm-3 col-form-label">Email</label>
-                <div class="col-sm-6">
+                <label class="l">Email</label>
+                <div class="i">
                     <input type="text" class="form-control" name="email" value="<?php echo $email;?>">
                 </div>
             </div>
 
             <div class="row mb-3">
-                <label class="col-sm-3 col-form-label">Phone</label>
-                <div class="col-sm-6">
+                <label class="l">Phone</label>
+                <div class="i">
                     <input type="text" class="form-control" name="phone" value="<?php echo $phone;?>">
                 </div>
             </div>
 
             <div class="row mb-3">
-                <label class="col-sm-3 col-form-label">Address</label>
-                <div class="col-sm-6">
+                <label class="l">Address</label>
+                <div class="i">
                     <input type="text" class="form-control" name="address" value="<?php echo $address;?>">
                 </div>
             </div>
@@ -151,12 +151,12 @@ else
              ?>
 
              
-            <div class="row mb-3">
-                <div class="offset-sm-3 col-sm-3 d-grid">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="">
+                <div class="bt1">
+                    <button type="submit" class="b">Submit</button>
                 </div>
-                <div class="col-sm-3 d-grid">
-                    <a class="btn btn-outline-primary" href="/myshop/index.php" role="button">Cancel</a>
+                <div class="bt2">
+                    <a class="b" href="/myshop/index.php" role="button">Cancel</a>
                 </div>
             </div>
         </form>  
